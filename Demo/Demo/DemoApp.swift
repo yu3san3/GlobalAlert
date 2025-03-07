@@ -12,9 +12,8 @@ import SwiftUI
 struct DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            GlobalAlertConteiner {
-                ContentView()
-            }
+            ContentView()
+                .globalAlertContainer()
         }
     }
 }

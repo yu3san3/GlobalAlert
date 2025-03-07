@@ -51,7 +51,7 @@ struct GlobalAlertModifier: ViewModifier {
 }
 
 extension View {
-    public func globalAlert(_ alert: GlobalAlert) -> some View {
+    func globalAlert(_ alert: GlobalAlert) -> some View {
         modifier(GlobalAlertModifier(alert: alert))
     }
 }
