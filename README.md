@@ -19,9 +19,8 @@ import GlobalAlert
 
 struct YourApp: View {
     var body: some View {
-        GlobalAlertContainer {
-            ContentView()
-        }
+        ContentView()
+            .globalAlertContainer()
     }
 }
 ```
