@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFE08DFE2D7B17E700FCACC0 /* GlobalAlert in Frameworks */ = {isa = PBXBuildFile; productRef = EFE08DFD2D7B17E700FCACC0 /* GlobalAlert */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFE08DE02D7B174000FCACC0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE08DFE2D7B17E700FCACC0 /* GlobalAlert in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
+				EFE08DFD2D7B17E700FCACC0 /* GlobalAlert */,
 			);
 			productName = Demo;
 			productReference = EFE08DE02D7B174000FCACC0 /* Demo.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = EFE08DD72D7B174000FCACC0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EFE08DFC2D7B17E700FCACC0 /* XCLocalSwiftPackageReference "../../GlobalAlert" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EFE08DE12D7B174000FCACC0 /* Products */;
 			projectDirPath = "";
@@ -339,6 +348,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		EFE08DFC2D7B17E700FCACC0 /* XCLocalSwiftPackageReference "../../GlobalAlert" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../GlobalAlert;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFE08DFD2D7B17E700FCACC0 /* GlobalAlert */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GlobalAlert;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFE08DD82D7B174000FCACC0 /* Project object */;
 }
