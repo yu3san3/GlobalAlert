@@ -8,11 +8,33 @@ public struct GlobalAlertButtonItem: Identifiable {
 
     public init(
         _ titleKey: LocalizedStringKey,
-        role: ButtonRole? = nil,
-        action: @escaping () -> Void = {}
+        role: ButtonRole?,
+        action: @escaping () -> Void
     ) {
         title = titleKey
         self.role = role
         self.action = action
+    }
+}
+
+extension GlobalAlertButtonItem {
+    public init(
+        _ titleKey: LocalizedStringKey,
+        role: ButtonRole?
+    ) {
+        self.init(titleKey, role: role, action: {})
+    }
+
+    public init(
+        _ titleKey: LocalizedStringKey,
+        action: @escaping () -> Void
+    ) {
+        self.init(titleKey, role: nil, action: action)
+    }
+
+    public init(
+        _ titleKey: LocalizedStringKey
+    ) {
+        self.init(titleKey, role: nil, action: {})
     }
 }
