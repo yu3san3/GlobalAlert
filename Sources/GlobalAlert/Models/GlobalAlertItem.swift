@@ -1,4 +1,4 @@
-import SwiftUICore
+import SwiftUI
 
 struct GlobalAlertItem {
     let title: LocalizedStringKey
