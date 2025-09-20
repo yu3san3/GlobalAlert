@@ -1,4 +1,4 @@
-import SwiftUICore
+import SwiftUI
 
 public final class GlobalAlert: ObservableObject {
     @Published var isShowAlert = false
