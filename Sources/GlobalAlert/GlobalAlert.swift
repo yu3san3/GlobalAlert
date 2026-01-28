@@ -18,6 +18,7 @@ public final class GlobalAlert: ObservableObject {
         isShowAlert = true
     }
 
+    @available(iOS, introduced: 15.0, deprecated: 26.0, message: "Use genuine confirmationDialog instead")
     @MainActor
     public func showConfirmationDialog(
         _ titleKey: LocalizedStringKey,
@@ -53,6 +54,7 @@ extension GlobalAlert {
         showAlert(titleKey, message: nil, buttons: [])
     }
 
+    @available(iOS, introduced: 15.0, deprecated: 26.0, message: "Use genuine confirmationDialog instead")
     @MainActor
     public func showConfirmationDialog(
         _ titleKey: LocalizedStringKey,
