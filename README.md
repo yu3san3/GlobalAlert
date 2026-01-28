@@ -42,7 +42,7 @@ struct ContentView: View {
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/9f10694f-b638-4261-b79c-36d1deddbdd4" width="400"/>
+    <img width="400" alt="Alert with a button" src="https://github.com/user-attachments/assets/358e1246-ad01-43ad-bc8c-772041f11490" />
 </p>
 
 ## 📦 Installation
@@ -78,7 +78,7 @@ globalAlert.showAlert(
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/81f60c21-6e62-4999-84b4-1d25a9ff64c4" width="400"/>
+    <img width="400" alt="Alert with two buttons" src="https://github.com/user-attachments/assets/929724fa-8909-4656-a626-5269235b204b" />
 </p>
 
 #### Three-Button Alert
@@ -104,10 +104,10 @@ globalAlert.showAlert(
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/c2457622-a018-4ec8-b130-8218ed13bee5" width="400"/>
+    <img width="400" alt="Alert with three buttons" src="https://github.com/user-attachments/assets/25a0cf00-9fc7-4af6-85fb-6461d4bcab2b" />
 </p>
 
-### 📢 Using confirmationDialog
+### 📢 Using confirmationDialog (Deprecated in iOS 26)
 
 You can also display a confirmation dialog:
 
@@ -132,5 +132,5 @@ globalAlert.showConfirmationDialog(
 ```
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/eef6b586-7000-4349-ae8d-4b1a4081fbc9" width="400"/>
+    <img width="400" alt="Confirmation Dialog" src="https://github.com/user-attachments/assets/73373cb8-0f03-401a-b50c-2cbca69efec8" />
 </p>
